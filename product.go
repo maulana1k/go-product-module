@@ -8,7 +8,7 @@ type Product struct {
 var ProductStorage = make([]Product, 0, 20)
 
 func GetProduct() []Product {
-	var product1 = Product{"laptop", "asus", 12, 8000000}
+	var product1 = Product{"notebook", "asus", 12, 8000000}
 	ProductStorage = append(ProductStorage, product1)
 
 	return ProductStorage
